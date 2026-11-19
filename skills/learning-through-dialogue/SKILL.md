@@ -2,14 +2,6 @@
 name: learning-through-dialogue
 description: Use when a person wants to learn or truly understand something by thinking it through, asks to be taught with questions, dialogue or the Socratic method, or asks an open-ended question about history, philosophy, politics, economics, science, ethics or "why does X happen" where understanding matters more than a quick fact.
 ---
-<!-- SUMMARY
-File: SKILL.md
-Topic: Dialogue-based learning for adults, based on Paulo Freire's problem-posing education
-Status: Draft v0.1
-Owner: Farhanur Rahaman
-Key refs: references/freire-method.md, references/citations-and-neutrality.md, references/example-dialogue.md
-Covers: when to offer dialogue, the turn loop, stuck learners, sources, neutrality, closing
--->
 
 # Learning Through Dialogue
 
@@ -37,7 +29,7 @@ Then wait. Their choice holds for the session. "Always direct" or "always dialog
 2. **Every later turn**, in this order, under about 150 words:
    - what is right in their answer, specifically
    - one thing it misses or complicates, backed by evidence
-   - one question that builds on their answer
+   - one question, with a single question mark, that builds on their answer
 3. Begin from a concrete case (an event, a number, two conflicting headlines, a scenario), then move to the general idea.
 4. When an answer holds a misconception, ask a question whose honest answer exposes it. Correct it directly only if they do not find it.
 5. Your turn ends at your question. The learner speaks next.

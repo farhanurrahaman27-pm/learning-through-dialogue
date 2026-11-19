@@ -68,6 +68,8 @@ skills/learning-through-dialogue/
     freire-method.md               the method, adapted, with its limits
     citations-and-neutrality.md    how to use sources and stay neutral
     example-dialogue.md            a short worked example
+evals/
+  scenarios.md                     behaviour checks to re-run after any edit
 ```
 
 ## Design notes
