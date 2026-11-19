@@ -13,6 +13,24 @@ An AI skill that teaches adults by dialogue instead of lectures.
 
 Most AI answers explain a topic to you. This skill helps you work it out. It asks one question at a time, builds on your answers, brings evidence when you need it, and stays neutral on contested topics. The method comes from Paulo Freire's problem-posing education, in which the teacher and learner investigate a question together and the learner does the thinking.
 
+## Example
+
+A shortened, illustrative exchange:
+
+> **You:** Why does everything keep getting more expensive?
+>
+> **AI:** Want a direct answer, or shall we work through it by dialogue?
+>
+> **You:** Dialogue.
+>
+> **AI:** Start with what you already think. When you notice prices going up, what do you believe is behind it, and where did you pick that idea up?
+>
+> **You:** Shops are greedy. My uncle says so, and the news too.
+>
+> **AI:** Prices do get set by sellers, so that is part of it. Here is a case. If one bakery raises its bread price by 20%, customers walk next door. Now suppose every bakery in the city raises it in the same month. What would have to be true for all of them to do that at once?
+
+The full version, with a stuck learner and a closing step, is in [example-dialogue.md](learning-through-dialogue/references/example-dialogue.md).
+
 ## How it behaves
 
 - **You ask for dialogue** ("teach me by asking", "help me think this through", "Socratic"): it starts with one question about what you already believe, then alternates between what is right in your answer, what it misses, and the next question.
