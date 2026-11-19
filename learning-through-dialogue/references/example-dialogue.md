@@ -1,38 +1,38 @@
 <!-- SUMMARY
 File: references/example-dialogue.md
 Topic: Worked example of one dialogue using the skill
-Status: Draft v0.1
+Status: Draft v0.2
 Owner: Farhanur Rahaman
 Key refs: SKILL.md
 Covers: offer, first question, right/missing/question turns, stuck learner, closing
 -->
 
-# Example dialogue: why prices rise
+# Example dialogue: why ice floats
 
-Illustrative only. The learner's lines are invented. Figures are omitted on purpose.
+Illustrative only. The learner's lines are invented. No source is cited here because the case does the work; see `citations-and-neutrality.md` for when to bring one in.
 
 ---
 
-**Learner:** Why does everything keep getting more expensive?
+**Learner:** Why does ice float on water?
 
 **Assistant:** Want a direct answer, or shall we work through it by dialogue?
 
 **Learner:** Dialogue.
 
-**Assistant:** Start with what you already think. When you notice prices going up, what do you believe is behind it, and where did you pick that idea up?
+**Assistant:** Start with what you already think. Why do you believe ice floats, and where did you pick that idea up?
 
-**Learner:** Shops are greedy. My uncle says so, and the news too.
+**Learner:** Because ice is lighter than water. I think we learned it in school.
 
-**Assistant:** Prices do get set by sellers, so that is part of it. Here is a case. If one bakery raises its bread price by 20%, customers walk next door. Now suppose every bakery in the city raises it in the same month. What would have to be true for all of them to do that at once?
+**Assistant:** Right, floating means being lighter in the sense of less mass in the same space. But it is the same water before and after freezing, so the amount did not change. Here is a case from your kitchen: a full, sealed bottle of water left in the freezer often cracks. What does that tell you about the ice compared with the water it came from?
 
-**Learner:** I don't know, ugh. Just tell me.
+**Learner:** Um, no idea. Just tell me.
 
-**Assistant:** Fair. Usually one of two things changes for every seller together: their costs rise (fuel, flour, imports), or buyers have more money to spend and sellers can charge more without losing sales. Greed alone does not explain it, because greedy bakeries were always tempted and competition held them back. Thinking about your own household: which of your bills went up first, and what do you think pushed it?
+**Assistant:** Fair. When water freezes, its molecules lock into an open, regular pattern that takes up more room than the loose liquid. So the same amount of water fills more space as ice, which makes ice less dense, and that is why it floats and why the bottle cracks. Most other substances shrink when they freeze, so water is unusual. In cold countries lakes freeze from the top down, not the bottom up. What do you think that means for the fish living in them? If you would rather have the whole picture in one go, say so and I will switch to direct answers.
 
-**Learner:** Electricity. The fuel price went up.
+**Learner:** The ice on top keeps the water below from freezing?
 
-**Assistant:** Good, that is the cost route. Notice what happened next: the bakery's oven uses that electricity too, so its costs rose and it passed them on. Milton Friedman, an American economist and Nobel laureate, argued the other route is the deeper one over long periods: when the amount of money grows faster than the goods available, prices rise everywhere. Economists still argue about how much weight each route deserves. Which one do you think fits your country in the last two years, and what would you need to see to be sure?
+**Assistant:** Yes, and you reached that yourself. The ice layer acts like a lid, so the water underneath stays liquid and the fish survive the winter. Notice what we did: one fact, that ice takes more space, explained the cracked bottle, the floating, and the fish. Where else in daily life might something that changes state also change how much room it needs?
 
 *(Closing, when the learner wants to stop)*
 
-**Assistant:** Here is where you got to: prices rise broadly when many sellers' costs rise together, or when more money chases the same goods, and "greed" does not explain a broad rise because competition limits it. Still open: how much each cause matters in your country. If you want to test this, find one official price index for your country and one economist who disagrees with another about the cause, and write five sentences on who you find more convincing. Want me to save a short summary?
+**Assistant:** Here is where you got to: water takes up more space when it freezes, which makes ice float and cracks sealed bottles, and the floating ice protects the water below. Still open: why water's molecules arrange themselves this way, which is a good next question. To test it, try explaining to someone why a bottle cracks in the freezer without using the word "density". Want me to save a short summary?

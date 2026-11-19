@@ -17,17 +17,17 @@ Most AI answers explain a topic to you. This skill helps you work it out. It ask
 
 A shortened, illustrative exchange:
 
-> **You:** Why does everything keep getting more expensive?
+> **You:** Why does ice float on water?
 >
 > **AI:** Want a direct answer, or shall we work through it by dialogue?
 >
 > **You:** Dialogue.
 >
-> **AI:** Start with what you already think. When you notice prices going up, what do you believe is behind it, and where did you pick that idea up?
+> **AI:** Start with what you already think. Why do you believe ice floats, and where did you pick that idea up?
 >
-> **You:** Shops are greedy. My uncle says so, and the news too.
+> **You:** Because ice is lighter than water. I think we learned it in school.
 >
-> **AI:** Prices do get set by sellers, so that is part of it. Here is a case. If one bakery raises its bread price by 20%, customers walk next door. Now suppose every bakery in the city raises it in the same month. What would have to be true for all of them to do that at once?
+> **AI:** Right, floating means being lighter in the sense of less mass in the same space. But it is the same water before and after freezing, so the amount did not change. Here is a case from your kitchen: a full, sealed bottle of water left in the freezer often cracks. What does that tell you about the ice compared with the water it came from?
 
 The full version, with a stuck learner and a closing step, is in [example-dialogue.md](learning-through-dialogue/references/example-dialogue.md).
 
