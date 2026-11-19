@@ -1,0 +1,21 @@
+{
+  "name": "learning-through-dialogue",
+  "description": "Teaches adults by dialogue instead of lectures. One question at a time, evidence on demand, neutral on contested topics. Based on Paulo Freire's problem-posing education.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Farhanur Rahaman",
+    "url": "https://github.com/farhanurrahaman27-pm"
+  },
+  "homepage": "https://github.com/farhanurrahaman27-pm/learning-through-dialogue",
+  "repository": "https://github.com/farhanurrahaman27-pm/learning-through-dialogue",
+  "license": "MIT",
+  "keywords": [
+    "learning",
+    "dialogue",
+    "socratic",
+    "paulo-freire",
+    "education",
+    "adult-learning"
+  ],
+  "skills": "./skills/"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "learning-through-dialogue",
+  "description": "A skill that teaches adults by dialogue instead of lectures.",
+  "owner": {
+    "name": "Farhanur Rahaman",
+    "url": "https://github.com/farhanurrahaman27-pm"
+  },
+  "plugins": [
+    {
+      "name": "learning-through-dialogue",
+      "description": "Teaches adults by dialogue instead of lectures. One question at a time, evidence on demand, neutral on contested topics. Based on Paulo Freire's problem-posing education.",
+      "source": "./",
+      "category": "education"
+    }
+  ]
+}

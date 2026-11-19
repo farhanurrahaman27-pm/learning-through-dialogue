@@ -3,7 +3,7 @@ File: README.md
 Topic: Public README for the learning-through-dialogue skill repo
 Status: Draft v0.1
 Owner: Farhanur Rahaman
-Key refs: learning-through-dialogue/SKILL.md
+Key refs: skills/learning-through-dialogue/SKILL.md
 Covers: what the skill is, why, install, behaviour, design notes, credits, license
 -->
 
@@ -29,7 +29,7 @@ A shortened, illustrative exchange:
 >
 > **AI:** Right, floating means being lighter in the sense of less mass in the same space. But it is the same water before and after freezing, so the amount did not change. Here is a case from your kitchen: a full, sealed bottle of water left in the freezer often cracks. What does that tell you about the ice compared with the water it came from?
 
-The full version, with a stuck learner and a closing step, is in [example-dialogue.md](learning-through-dialogue/references/example-dialogue.md).
+The full version, with a stuck learner and a closing step, is in [example-dialogue.md](skills/learning-through-dialogue/references/example-dialogue.md).
 
 ## How it behaves
 
@@ -41,14 +41,17 @@ The full version, with a stuck learner and a closing step, is in [example-dialog
 - **Contested topics:** it gives the strongest version of each side and holds back its own preference. Settled facts are stated plainly.
 - **Closing:** a short summary of what you now understand, plus one optional task to test the idea outside the chat.
 
-A worked example is in [learning-through-dialogue/references/example-dialogue.md](learning-through-dialogue/references/example-dialogue.md).
-
 ## Install
 
 The skill follows the open Agent Skills format: a folder with a `SKILL.md` and optional reference files.
 
-- **Claude Code:** copy the `learning-through-dialogue` folder into `~/.claude/skills/` (all projects) or `.claude/skills/` inside a project.
-- **Claude.ai:** zip the `learning-through-dialogue` folder and upload it under Settings, Capabilities, Skills. *(Menu names change; check the current Skills docs.)*
+- **Claude Code plugin (easiest):** run these two commands in Claude Code.
+  ```
+  /plugin marketplace add farhanurrahaman27-pm/learning-through-dialogue
+  /plugin install learning-through-dialogue@learning-through-dialogue
+  ```
+- **Claude Code, manual:** copy the `skills/learning-through-dialogue` folder into `~/.claude/skills/` (all projects) or `.claude/skills/` inside a project.
+- **Claude.ai:** zip the `skills/learning-through-dialogue` folder and upload it under Settings, Capabilities, Skills. *(Menu names change; check the current Skills docs.)*
 - **Other agents that read `SKILL.md` folders:** place the folder in that tool's skills directory.
 
 `SKILL.md` is written to work alone. If a platform does not load the `references/` files, the core behaviour still works.
@@ -56,7 +59,10 @@ The skill follows the open Agent Skills format: a folder with a `SKILL.md` and o
 ## Files
 
 ```
-learning-through-dialogue/
+.claude-plugin/
+  plugin.json                      plugin manifest
+  marketplace.json                 lets Claude Code install it from this repo
+skills/learning-through-dialogue/
   SKILL.md                         core behaviour
   references/
     freire-method.md               the method, adapted, with its limits
